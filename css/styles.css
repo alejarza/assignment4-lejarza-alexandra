@@ -9,6 +9,18 @@ Universal Styling
   border: 0;
 }
 
+main {
+  max-width: 1920px;
+  background: white;
+  margin: 20px, auto;
+  padding: 4rem;
+}
+
+p {
+  font-size: 14px;
+  line-height: 150%;
+}
+
 header {
   text-align: center;
   background: lightyellow;
@@ -37,4 +49,11 @@ nav li {
   display: inline;
   font-size: 24px;
   float: center;
+}
+
+footer {
+  background: #333;
+  text-align: center;
+  color: white;
+  padding: 10px, 0;
 }
