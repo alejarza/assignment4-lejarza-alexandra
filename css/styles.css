@@ -16,6 +16,15 @@ main {
   padding: 4rem;
 }
 
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: violet;
+  min-width: 500px;
+  text-align: center;
+}
+
 p {
   font-size: 14px;
   line-height: 150%;
@@ -57,3 +66,8 @@ footer {
   color: white;
   padding: 10px, 0;
 }
+/****************************
+
+index page styling
+
+*****************************/
