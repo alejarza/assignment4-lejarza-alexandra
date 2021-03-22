@@ -16,6 +16,10 @@ main {
   padding: 4rem;
 }
 
+section {
+  padding: 20px;
+}
+
 h1 {
   font-family: 'Lato', sans-serif;
   font-weight: bold;
@@ -28,6 +32,7 @@ h1 {
 p {
   font-size: 14px;
   line-height: 150%;
+  padding: 20px;
 }
 
 header {
@@ -61,13 +66,40 @@ nav li {
 }
 
 footer {
-  background: #333;
+  background: lightyellow;
   text-align: center;
-  color: white;
-  padding: 10px, 0;
+  color: #333;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 /****************************
 
 index page styling
 
 *****************************/
+
+.hellokitty {
+  position: absolute;
+  top: 580px;
+  animation: fly 8s linear infinite reverse;
+  z-index: 100;
+}
+
+@keyframes fly {
+  from {
+    left: -100px;
+  }
+  to {
+    left: 1000px;}
+}
+
+.mid-section .keroppi {
+  float: left;
+}
+
+.keroppi {
+  position: relative;
+  right: 50px;
+}
