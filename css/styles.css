@@ -12,7 +12,6 @@ Universal Styling
 main {
   max-width: 1920px;
   background: white;
-  margin: 20px, auto;
   padding: 4rem;
 }
 
@@ -23,8 +22,8 @@ section {
 h1 {
   font-family: 'Lato', sans-serif;
   font-weight: bold;
-  font-size: 30px;
   color: violet;
+  font-size: 30px;
   min-width: 500px;
   text-align: center;
 }
@@ -62,7 +61,6 @@ nav a:active {
 nav li {
   display: inline;
   font-size: 24px;
-  float: center;
 }
 
 footer {
